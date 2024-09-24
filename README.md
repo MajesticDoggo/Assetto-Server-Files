@@ -9,7 +9,6 @@ The first one tells what cars are going to be used and the second configures how
 ###
 ## Cars and Tracks Configuration
 Located in *shutotest\content*
-#
 
 Cars Folder: <br>
 ###
