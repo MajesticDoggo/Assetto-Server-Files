@@ -1,0 +1,376 @@
+2024-08-26 18:32:26.107 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:32:26.269 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:32:26.387 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:32:26.423 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:32:28.548 -07:00 [INF] Cached AI spline not found. Generating cache...
+2024-08-26 18:32:28.559 -07:00 [INF] Loading from AI package content\tracks/csp/1932/../shuto_revival_project_beta/ai/fast_lane.aip
+2024-08-26 18:32:28.602 -07:00 [INF] Loading AI spline by plot3sale & compiled by Lay Jeno, version 10
+2024-08-26 18:32:37.059 -07:00 [INF] Adjacent lane detection...
+2024-08-26 18:32:42.344 -07:00 [INF] Adjacent lane detection completed in 5280.2 ms
+2024-08-26 18:32:42.500 -07:00 [DBG] Writing cached AI spline to file
+2024-08-26 18:32:42.943 -07:00 [INF] Generating cache completed in 14389.3 ms
+2024-08-26 18:32:42.950 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:32:43.114 -07:00 [INF] Starting server
+2024-08-26 18:32:44.258 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:32:44.261 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:32:44.263 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:32:44.268 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:32:44.271 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:32:44.287 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:32:44.303 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:32:44.319 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:32:44.320 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:32:44.325 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:32:44.327 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:32:44.330 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:32:44.332 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:32:44.334 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:32:44.336 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:32:44.338 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:32:44.339 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:32:44.343 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:32:44.344 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:32:44.345 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:32:44.351 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:32:44.356 -07:00 [INF] Next session: Practice
+2024-08-26 18:32:44.359 -07:00 [INF] Switching session to id 0
+2024-08-26 18:32:44.818 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:32:44.824 -07:00 [INF] cfg/data_track_params.ini not found, downloading from GitHub...
+2024-08-26 18:32:44.841 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:32:44.849 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:32:44.887 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:32:44.894 -07:00 [INF] Server shutting down
+2024-08-26 18:32:45.198 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:33:00.537 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:33:00.666 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:33:00.779 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:33:00.826 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:33:02.621 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:33:02.768 -07:00 [INF] Starting server
+2024-08-26 18:33:03.372 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:33:03.379 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:33:03.395 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:33:03.411 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:33:03.418 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:33:03.428 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:33:03.468 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:33:03.469 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:33:03.470 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:33:03.476 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:33:03.478 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:33:03.482 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:33:03.485 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:33:03.487 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:33:03.489 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:33:03.491 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:33:03.493 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:33:03.495 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:33:03.496 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:33:03.499 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:33:03.514 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:33:03.523 -07:00 [INF] Next session: Practice
+2024-08-26 18:33:03.527 -07:00 [INF] Switching session to id 0
+2024-08-26 18:33:03.896 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:33:04.013 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:33:04.018 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:33:04.051 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:33:04.058 -07:00 [INF] Server shutting down
+2024-08-26 18:33:04.729 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:33:07.710 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:33:07.867 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:33:07.989 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:33:08.028 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:33:09.652 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:33:09.754 -07:00 [INF] Starting server
+2024-08-26 18:33:10.381 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:33:10.391 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:33:10.392 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:33:10.404 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:33:10.410 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:33:10.417 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:33:10.472 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:33:10.473 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:33:10.475 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:33:10.481 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:33:10.483 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:33:10.486 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:33:10.488 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:33:10.490 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:33:10.492 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:33:10.494 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:33:10.497 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:33:10.499 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:33:10.500 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:33:10.503 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:33:10.516 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:33:10.525 -07:00 [INF] Next session: Practice
+2024-08-26 18:33:10.530 -07:00 [INF] Switching session to id 0
+2024-08-26 18:33:10.846 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:33:10.968 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:33:10.982 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:33:11.019 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:33:11.029 -07:00 [INF] Server shutting down
+2024-08-26 18:33:12.003 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:33:58.154 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:33:58.328 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:33:58.459 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:33:58.498 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:34:00.141 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:34:00.254 -07:00 [INF] Starting server
+2024-08-26 18:34:00.893 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:34:00.915 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:34:00.919 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:34:00.931 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:34:00.936 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:34:00.944 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:34:00.981 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:34:00.984 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:34:00.986 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:34:00.992 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:34:00.995 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:34:00.998 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:34:01.001 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:34:01.003 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:34:01.005 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:34:01.007 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:34:01.010 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:34:01.012 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:34:01.014 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:34:01.018 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:34:01.030 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:34:01.039 -07:00 [INF] Next session: Practice
+2024-08-26 18:34:01.042 -07:00 [INF] Switching session to id 0
+2024-08-26 18:34:01.417 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:34:01.578 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:34:01.587 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:34:01.641 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:34:01.649 -07:00 [INF] Server shutting down
+2024-08-26 18:34:01.789 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:34:08.479 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:34:08.634 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:34:08.756 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:34:08.794 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:34:10.818 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:34:10.913 -07:00 [INF] Starting server
+2024-08-26 18:34:11.585 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:34:11.610 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:34:11.615 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:34:11.630 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:34:11.636 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:34:11.649 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:34:11.690 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:34:11.694 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:34:11.697 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:34:11.706 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:34:11.709 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:34:11.713 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:34:11.716 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:34:11.718 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:34:11.721 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:34:11.724 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:34:11.726 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:34:11.729 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:34:11.732 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:34:11.737 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:34:11.748 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:34:11.757 -07:00 [INF] Next session: Practice
+2024-08-26 18:34:11.760 -07:00 [INF] Switching session to id 0
+2024-08-26 18:34:12.186 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:34:12.368 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:34:12.380 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:34:12.421 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:34:12.439 -07:00 [INF] Server shutting down
+2024-08-26 18:34:12.714 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:34:45.672 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:34:45.792 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:34:45.905 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:34:45.940 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:34:47.684 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:34:47.812 -07:00 [INF] Starting server
+2024-08-26 18:34:48.484 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:34:48.656 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:34:48.660 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:34:48.673 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:34:48.677 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:34:48.688 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:34:48.720 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:34:48.723 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:34:48.725 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:34:48.731 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:34:48.734 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:34:48.737 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:34:48.740 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:34:48.742 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:34:48.744 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:34:48.747 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:34:48.749 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:34:48.752 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:34:48.754 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:34:48.757 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:34:48.772 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:34:48.780 -07:00 [INF] Next session: Practice
+2024-08-26 18:34:48.783 -07:00 [INF] Switching session to id 0
+2024-08-26 18:34:49.059 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:34:49.162 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:34:49.169 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:34:49.189 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:34:49.193 -07:00 [INF] Server shutting down
+2024-08-26 18:34:50.215 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:35:06.165 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:35:06.308 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:35:06.431 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:35:06.466 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:35:08.214 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:35:08.274 -07:00 [INF] Starting server
+2024-08-26 18:35:08.954 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:35:08.977 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:35:08.981 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:35:08.993 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:35:08.998 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:35:09.010 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:35:09.048 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:35:09.049 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:35:09.051 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:35:09.056 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:35:09.059 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:35:09.062 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:35:09.065 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:35:09.067 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:35:09.069 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:35:09.072 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:35:09.074 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:35:09.076 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:35:09.077 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:35:09.080 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:35:09.095 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:35:09.103 -07:00 [INF] Next session: Practice
+2024-08-26 18:35:09.106 -07:00 [INF] Switching session to id 0
+2024-08-26 18:35:09.436 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:35:09.579 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:35:09.587 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:35:09.618 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:35:09.624 -07:00 [INF] Server shutting down
+2024-08-26 18:35:10.620 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:39:34.295 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:39:34.465 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:39:34.601 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:39:34.647 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:39:36.856 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:39:37.012 -07:00 [INF] Starting server
+2024-08-26 18:39:37.625 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:39:37.650 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:39:37.654 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:39:37.665 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:39:37.669 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:39:37.674 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:39:37.713 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:39:37.714 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:39:37.716 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:39:37.722 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:39:37.724 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:39:37.728 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:39:37.731 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:39:37.733 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:39:37.736 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:39:37.739 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:39:37.741 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:39:37.744 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:39:37.746 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:39:37.750 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:39:37.760 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:39:37.768 -07:00 [INF] Next session: Practice
+2024-08-26 18:39:37.771 -07:00 [INF] Switching session to id 0
+2024-08-26 18:39:38.154 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:39:38.270 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:39:38.277 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:39:38.308 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:39:38.314 -07:00 [INF] Server shutting down
+2024-08-26 18:39:39.311 -07:00 [INF] Starting update loop with an update rate of 18hz

@@ -1,0 +1,47 @@
+2024-09-01 03:54:50.001 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-09-01 03:54:50.263 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-09-01 03:54:50.485 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-09-01 03:54:50.852 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-09-01 03:54:55.091 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-09-01 03:54:55.504 -07:00 [INF] Starting server
+2024-09-01 03:54:56.966 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-09-01 03:54:57.016 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-09-01 03:54:57.025 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-09-01 03:54:57.038 -07:00 [INF] Starting HTTP server on port 8081
+2024-09-01 03:54:57.046 -07:00 [INF] Loaded 30 cars
+2024-09-01 03:54:57.175 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-09-01 03:54:57.220 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-09-01 03:54:57.222 -07:00 [INF] Initialized 2 track checksums
+2024-09-01 03:54:57.278 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-09-01 03:54:57.333 -07:00 [DBG] Added checksum for ct5v_blackwing_majestic
+2024-09-01 03:54:57.471 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-09-01 03:54:57.515 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-09-01 03:54:57.600 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-09-01 03:54:57.688 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-09-01 03:54:57.719 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-09-01 03:54:57.748 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-09-01 03:54:57.781 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-09-01 03:54:57.816 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-09-01 03:54:57.843 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-09-01 03:54:57.875 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-09-01 03:54:57.911 -07:00 [DBG] Added checksum for hk51_traffic_toyota_coaster
+2024-09-01 03:54:57.961 -07:00 [DBG] Added checksum for hk51_traffic_toyota_crown_comfort
+2024-09-01 03:54:58.009 -07:00 [DBG] Added checksum for hk51_traffic_toyota_hiace
+2024-09-01 03:54:58.042 -07:00 [DBG] Added checksum for hk51_traffic_vw_golf_r
+2024-09-01 03:54:58.079 -07:00 [DBG] Added checksum for hk51_traffic_bus_volvo_super_olympian
+2024-09-01 03:54:58.354 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_nkr_flatbed_tow_truck_hyundai_i30n
+2024-09-01 03:54:58.378 -07:00 [DBG] Added checksum for hk51_traffic_porsche_macan
+2024-09-01 03:54:58.387 -07:00 [INF] Initialized 19 car checksums
+2024-09-01 03:54:58.395 -07:00 [INF] Next session: Practice
+2024-09-01 03:54:58.398 -07:00 [INF] Switching session to id 0
+2024-09-01 03:54:58.936 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-09-01 03:54:59.168 -07:00 [INF] Starting TCP server on port 9600
+2024-09-01 03:54:59.181 -07:00 [INF] Starting UDP server on port 9600
+2024-09-01 03:54:59.260 -07:00 [INF] Registering server to lobby...
+2024-09-01 03:54:59.281 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-09-01 03:54:59.622 -07:00 [INF] Lobby registration successful
+2024-09-01 03:55:32.246 -07:00 [INF] Majestic (76561198366405484 - 65.24.209.204:53804) is attempting to connect (majestic_subaru_wrx)
+2024-09-01 03:55:32.251 -07:00 [DBG] Majestic supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3045"]
+2024-09-01 03:55:32.267 -07:00 [INF] Majestic (76561198366405484, 0 (majestic_subaru_wrx-WR Blue)) has connected
+2024-09-01 03:55:52.907 -07:00 [DBG] Disconnecting Majestic (65.24.209.204:53804)
+2024-09-01 03:55:52.915 -07:00 [INF] Majestic has disconnected

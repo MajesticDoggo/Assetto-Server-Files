@@ -1,0 +1,413 @@
+2024-08-26 18:39:34.388 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:39:34.533 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:39:34.647 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:39:34.695 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:40:28.460 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:40:28.648 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:40:28.784 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:40:28.827 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:40:30.941 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:40:31.110 -07:00 [INF] Starting server
+2024-08-26 18:40:31.900 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:40:31.907 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:40:31.921 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:40:31.933 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:40:31.936 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:40:31.952 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:40:31.975 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:40:31.979 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:40:31.980 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:40:31.986 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:40:31.989 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:40:31.992 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:40:31.994 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:40:31.995 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:40:31.996 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:40:31.997 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:40:31.998 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:40:32.000 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:40:32.000 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:40:32.002 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:40:32.009 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:40:32.016 -07:00 [INF] Next session: Practice
+2024-08-26 18:40:32.019 -07:00 [INF] Switching session to id 0
+2024-08-26 18:40:32.322 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:40:32.468 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:40:32.478 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:40:32.515 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:40:32.521 -07:00 [INF] Server shutting down
+2024-08-26 18:40:33.506 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:40:35.875 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:40:36.041 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:40:36.166 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:40:36.206 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:40:38.420 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:40:38.496 -07:00 [INF] Starting server
+2024-08-26 18:40:39.238 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:40:39.245 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:40:39.261 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:40:39.281 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:40:39.287 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:40:39.302 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:40:39.343 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:40:39.348 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:40:39.350 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:40:39.354 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:40:39.355 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:40:39.357 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:40:39.359 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:40:39.360 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:40:39.362 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:40:39.363 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:40:39.365 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:40:39.366 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:40:39.367 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:40:39.369 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:40:39.382 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:40:39.392 -07:00 [INF] Next session: Practice
+2024-08-26 18:40:39.396 -07:00 [INF] Switching session to id 0
+2024-08-26 18:40:39.736 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:40:39.899 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:40:39.908 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:40:39.970 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:40:39.978 -07:00 [INF] Server shutting down
+2024-08-26 18:40:40.964 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 18:52:42.524 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:52:42.689 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:52:42.820 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:52:42.862 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:52:43.531 -07:00 [FTL] Error starting server
+FluentValidation.ValidationException: Validation failed: 
+ -- Extra.BlacklistUserGroup: 'BlacklistUserGroup' must not be empty. Severity: Error
+ -- Extra.WhitelistUserGroup: 'WhitelistUserGroup' must not be empty. Severity: Error
+ -- Extra.AdminUserGroup: 'AdminUserGroup' must not be empty. Severity: Error
+   at FluentValidation.AbstractValidator`1.RaiseValidationException(ValidationContext`1 context, ValidationResult result) in /_/src/FluentValidation/AbstractValidator.cs:line 531
+   at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 258
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 202
+   at FluentValidation.AbstractValidator`1.FluentValidation.IValidator.Validate(IValidationContext context) in /_/src/FluentValidation/AbstractValidator.cs:line 153
+   at FluentValidation.DefaultValidatorExtensions.Validate[T](IValidator`1 validator, T instance, Action`1 options) in /_/src/FluentValidation/DefaultValidatorExtensions_Validate.cs:line 38
+   at FluentValidation.DefaultValidatorExtensions.ValidateAndThrow[T](IValidator`1 validator, T instance) in /_/src/FluentValidation/DefaultValidatorExtensions_Validate.cs:line 59
+   at AssettoServer.Server.Configuration.ACServerConfiguration..ctor(String preset, String serverCfgPath, String entryListPath, Boolean loadPluginsFromWorkdir) in AssettoServer/Server/Configuration/ACServerConfiguration.cs:line 119
+   at AssettoServer.Program.RunServerAsync(String preset, String serverCfgPath, String entryListPath, Boolean loadPluginsFromWorkdir, CancellationToken token) in AssettoServer/Program.cs:line 75
+2024-08-26 18:53:12.809 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 18:53:12.977 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 18:53:13.104 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 18:53:13.142 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 18:53:15.027 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 18:53:15.143 -07:00 [INF] Starting server
+2024-08-26 18:53:15.832 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 18:53:15.853 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 18:53:15.858 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 18:53:15.870 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 18:53:15.875 -07:00 [INF] Loaded 11 cars
+2024-08-26 18:53:15.890 -07:00 [FTL] Error executing critical background service
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Steamworks.SteamServer.LogOnAnonymous()
+   at AssettoServer.Server.Steam.Initialize() in AssettoServer/Server/Steam.cs:line 87
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at AssettoServer.Server.Steam.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/Steam.cs:line 243
+   --- End of inner exception stack trace ---
+2024-08-26 18:53:15.922 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 18:53:15.923 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 18:53:15.925 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 18:53:15.931 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 18:53:15.933 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 18:53:15.938 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 18:53:15.941 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 18:53:15.944 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 18:53:15.946 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 18:53:15.949 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 18:53:15.952 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 18:53:15.954 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 18:53:15.956 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 18:53:15.959 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 18:53:15.971 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 18:53:15.978 -07:00 [INF] Next session: Practice
+2024-08-26 18:53:15.981 -07:00 [INF] Switching session to id 0
+2024-08-26 18:53:16.334 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 18:53:16.455 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 18:53:16.465 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 18:53:16.502 -07:00 [INF] Registering server to lobby...
+2024-08-26 18:53:16.511 -07:00 [INF] Server shutting down
+2024-08-26 18:53:17.495 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 19:01:02.048 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 19:01:02.188 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 19:01:02.316 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 19:01:02.356 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 19:01:04.358 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 19:01:04.466 -07:00 [INF] Starting server
+2024-08-26 19:01:05.152 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 19:01:05.174 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 19:01:05.181 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 19:01:05.193 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 19:01:05.200 -07:00 [INF] Loaded 11 cars
+2024-08-26 19:01:05.253 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 19:01:05.255 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 19:01:05.257 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 19:01:05.265 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 19:01:05.269 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 19:01:05.275 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 19:01:05.279 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 19:01:05.283 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 19:01:05.287 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 19:01:05.290 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 19:01:05.293 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 19:01:05.296 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 19:01:05.298 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 19:01:05.302 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 19:01:05.316 -07:00 [INF] Initialized 11 car checksums
+2024-08-26 19:01:05.327 -07:00 [INF] Next session: Practice
+2024-08-26 19:01:05.330 -07:00 [INF] Switching session to id 0
+2024-08-26 19:01:05.651 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 19:01:05.767 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 19:01:05.774 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 19:01:05.804 -07:00 [INF] Registering server to lobby...
+2024-08-26 19:01:05.817 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 19:01:06.140 -07:00 [INF] Lobby registration successful
+2024-08-26 19:01:36.313 -07:00 [INF] Majestic (76561198366405484 - 65.24.209.204:62046) is attempting to connect (majestic_subaru_wrx)
+2024-08-26 19:01:36.319 -07:00 [DBG] Majestic supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3044"]
+2024-08-26 19:01:36.344 -07:00 [INF] Majestic (76561198366405484, 0 (majestic_subaru_wrx-WR Blue)) has connected
+2024-08-26 19:02:18.107 -07:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 10 - Target AI count: 10 - Overbooking: 1 - Rest: 0
+2024-08-26 19:02:18.375 -07:00 [INF] CHAT: Majestic (0): 				$CSP0:YOqrL2En
+2024-08-26 19:03:01.461 -07:00 [INF] Collision between Majestic (0) and environment, rel. speed 26km/h
+2024-08-26 19:03:14.453 -07:00 [DBG] Received clean exit from Majestic (0)
+2024-08-26 19:03:14.462 -07:00 [DBG] Disconnecting Majestic (65.24.209.204:62046)
+2024-08-26 19:03:14.470 -07:00 [INF] Majestic has disconnected
+2024-08-26 19:06:45.616 -07:00 [DBG] Car 10 reached spline end, despawning
+2024-08-26 19:13:06.544 -07:00 [DBG] Car 8 reached spline end, despawning
+2024-08-26 19:13:33.357 -07:00 [DBG] Car 4 reached spline end, despawning
+2024-08-26 19:17:33.408 -07:00 [INF] RareK5 (76561198868395095 - 74.137.136.245:54660) is attempting to connect (majestic_subaru_wrx)
+2024-08-26 19:17:33.410 -07:00 [DBG] RareK5 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2051"]
+2024-08-26 19:17:33.411 -07:00 [INF] RareK5 (76561198868395095, 0 (majestic_subaru_wrx-WR Blue)) has connected
+2024-08-26 19:18:47.073 -07:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 10 - Target AI count: 10 - Overbooking: 1 - Rest: 0
+2024-08-26 19:18:50.864 -07:00 [INF] CHAT: RareK5 (0): 				$CSP0:YOqrL2En
+2024-08-26 19:19:32.222 -07:00 [DBG] Received clean exit from RareK5 (0)
+2024-08-26 19:19:32.223 -07:00 [DBG] Disconnecting RareK5 (74.137.136.245:54660)
+2024-08-26 19:19:32.225 -07:00 [INF] RareK5 has disconnected
+2024-08-26 19:20:13.779 -07:00 [INF] RareK5 (76561198868395095 - 74.137.136.245:54819) is attempting to connect (majestic_subaru_wrx)
+2024-08-26 19:20:13.782 -07:00 [DBG] RareK5 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2051"]
+2024-08-26 19:20:13.783 -07:00 [INF] RareK5 (76561198868395095, 0 (majestic_subaru_wrx-WR Blue)) has connected
+2024-08-26 19:20:41.516 -07:00 [DBG] Car 2 reached spline end, despawning
+2024-08-26 19:21:08.328 -07:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 10 - Target AI count: 10 - Overbooking: 1 - Rest: 0
+2024-08-26 19:21:10.525 -07:00 [INF] CHAT: RareK5 (0): 				$CSP0:YOqrL2En
+2024-08-26 19:22:00.657 -07:00 [DBG] Car 3 reached spline end, despawning
+2024-08-26 19:22:01.069 -07:00 [DBG] Received clean exit from RareK5 (0)
+2024-08-26 19:22:01.069 -07:00 [DBG] Disconnecting RareK5 (74.137.136.245:54819)
+2024-08-26 19:22:01.071 -07:00 [INF] RareK5 has disconnected
+2024-08-26 19:22:43.892 -07:00 [DBG] Car 6 reached spline end, despawning
+2024-08-26 19:23:12.751 -07:00 [DBG] Car 9 reached spline end, despawning
+2024-08-26 19:24:24.558 -07:00 [INF] RareK5 (76561198868395095 - 74.137.136.245:55034) is attempting to connect (majestic_subaru_wrx)
+2024-08-26 19:24:24.559 -07:00 [DBG] RareK5 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2051"]
+2024-08-26 19:24:24.560 -07:00 [INF] RareK5 (76561198868395095, 0 (majestic_subaru_wrx-WR Blue)) has connected
+2024-08-26 19:25:17.864 -07:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 10 - Target AI count: 10 - Overbooking: 1 - Rest: 0
+2024-08-26 19:25:20.011 -07:00 [INF] CHAT: RareK5 (0): 				$CSP0:YOqrL2En
+2024-08-26 19:27:01.017 -07:00 [INF] Collision between RareK5 (0) and Traffic 10 (10), rel. speed 32km/h
+2024-08-26 19:27:11.019 -07:00 [INF] Collision between RareK5 (0) and Traffic 3 (3), rel. speed 83km/h
+2024-08-26 19:27:11.020 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 145km/h
+2024-08-26 19:27:23.507 -07:00 [DBG] Car 3 reached spline end, despawning
+2024-08-26 19:27:36.022 -07:00 [INF] Collision between RareK5 (0) and Traffic 7 (7), rel. speed 152km/h
+2024-08-26 19:27:36.023 -07:00 [INF] Collision between RareK5 (0) and Traffic 4 (4), rel. speed 75km/h
+2024-08-26 19:27:36.023 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 19km/h
+2024-08-26 19:27:41.030 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 79km/h
+2024-08-26 19:27:45.559 -07:00 [DBG] Car 1 reached spline end, despawning
+2024-08-26 19:29:16.046 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 122km/h
+2024-08-26 19:29:26.040 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 43km/h
+2024-08-26 19:29:26.040 -07:00 [INF] Collision between RareK5 (0) and Traffic 2 (2), rel. speed 52km/h
+2024-08-26 19:29:31.047 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 41km/h
+2024-08-26 19:30:36.057 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 42km/h
+2024-08-26 19:31:01.061 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 6km/h
+2024-08-26 19:31:06.066 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 133km/h
+2024-08-26 19:31:11.062 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 3km/h
+2024-08-26 19:31:21.073 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 32km/h
+2024-08-26 19:31:41.072 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 135km/h
+2024-08-26 19:31:41.072 -07:00 [INF] Collision between RareK5 (0) and Traffic 2 (2), rel. speed 24km/h
+2024-08-26 19:31:41.073 -07:00 [INF] Collision between RareK5 (0) and Traffic 4 (4), rel. speed 32km/h
+2024-08-26 19:32:11.074 -07:00 [INF] Collision between RareK5 (0) and Traffic 2 (2), rel. speed 92km/h
+2024-08-26 19:32:11.074 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 153km/h
+2024-08-26 19:32:21.074 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 128km/h
+2024-08-26 19:32:21.075 -07:00 [INF] Collision between RareK5 (0) and Traffic 4 (4), rel. speed 14km/h
+2024-08-26 19:32:36.077 -07:00 [INF] Collision between RareK5 (0) and Traffic 9 (9), rel. speed 99km/h
+2024-08-26 19:32:41.085 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 118km/h
+2024-08-26 19:33:01.082 -07:00 [INF] Collision between RareK5 (0) and Traffic 1 (1), rel. speed 11km/h
+2024-08-26 19:33:36.099 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 180km/h
+2024-08-26 19:34:01.098 -07:00 [INF] Collision between RareK5 (0) and Traffic 4 (4), rel. speed 26km/h
+2024-08-26 19:34:26.100 -07:00 [INF] Collision between RareK5 (0) and Traffic 8 (8), rel. speed 106km/h
+2024-08-26 19:34:26.101 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 14km/h
+2024-08-26 19:34:31.108 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 103km/h
+2024-08-26 19:35:06.115 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 49km/h
+2024-08-26 19:35:16.197 -07:00 [INF] Collision between RareK5 (0) and Traffic 7 (7), rel. speed 103km/h
+2024-08-26 19:35:16.198 -07:00 [INF] Collision between RareK5 (0) and Traffic 10 (10), rel. speed 123km/h
+2024-08-26 19:35:16.198 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 19km/h
+2024-08-26 19:36:11.124 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 171km/h
+2024-08-26 19:36:16.130 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 30km/h
+2024-08-26 19:36:41.128 -07:00 [INF] Collision between RareK5 (0) and Traffic 10 (10), rel. speed 89km/h
+2024-08-26 19:36:41.129 -07:00 [INF] Collision between RareK5 (0) and Traffic 8 (8), rel. speed 64km/h
+2024-08-26 19:36:51.130 -07:00 [INF] Collision between RareK5 (0) and Traffic 1 (1), rel. speed 18km/h
+2024-08-26 19:36:51.131 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 91km/h
+2024-08-26 19:37:11.132 -07:00 [INF] Collision between RareK5 (0) and Traffic 10 (10), rel. speed 22km/h
+2024-08-26 19:37:11.133 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 133km/h
+2024-08-26 19:37:31.136 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 154km/h
+2024-08-26 19:37:41.141 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 107km/h
+2024-08-26 19:37:46.151 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 83km/h
+2024-08-26 19:38:26.149 -07:00 [INF] Collision between RareK5 (0) and Traffic 9 (9), rel. speed 23km/h
+2024-08-26 19:38:37.587 -07:00 [DBG] Car 3 reached spline end, despawning
+2024-08-26 19:38:39.788 -07:00 [DBG] Car 1 reached spline end, despawning
+2024-08-26 19:38:53.979 -07:00 [DBG] Car 5 reached spline end, despawning
+2024-08-26 19:40:26.178 -07:00 [INF] Collision between RareK5 (0) and Traffic 2 (2), rel. speed 43km/h
+2024-08-26 19:40:26.179 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 87km/h
+2024-08-26 19:40:39.094 -07:00 [DBG] Car 1 reached spline end, despawning
+2024-08-26 19:40:49.381 -07:00 [DBG] Car 8 reached spline end, despawning
+2024-08-26 19:40:50.254 -07:00 [DBG] Car 9 reached spline end, despawning
+2024-08-26 19:41:11.186 -07:00 [INF] Collision between RareK5 (0) and Traffic 2 (2), rel. speed 42km/h
+2024-08-26 19:41:11.187 -07:00 [INF] Collision between RareK5 (0) and Traffic 5 (5), rel. speed 16km/h
+2024-08-26 19:41:11.187 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 55km/h
+2024-08-26 19:41:16.190 -07:00 [INF] Collision between RareK5 (0) and Traffic 2 (2), rel. speed 29km/h
+2024-08-26 19:41:46.191 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 89km/h
+2024-08-26 19:42:31.198 -07:00 [INF] Collision between RareK5 (0) and Traffic 2 (2), rel. speed 75km/h
+2024-08-26 19:42:31.199 -07:00 [INF] Collision between RareK5 (0) and environment, rel. speed 117km/h
+2024-08-26 19:44:47.833 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 19:44:48.058 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 19:44:48.217 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 19:44:48.267 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 19:44:50.163 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 19:44:50.352 -07:00 [INF] Starting server
+2024-08-26 19:44:51.023 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 19:44:51.045 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 19:44:51.051 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 19:44:51.061 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 19:44:51.066 -07:00 [INF] Loaded 30 cars
+2024-08-26 19:44:51.131 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 19:44:51.132 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 19:44:51.134 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 19:44:51.142 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 19:44:51.145 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 19:44:51.149 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 19:44:51.153 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 19:44:51.157 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 19:44:51.160 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 19:44:51.163 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 19:44:51.166 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 19:44:51.170 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 19:44:51.171 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 19:44:51.175 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 19:44:51.178 -07:00 [DBG] Added checksum for hk51_traffic_toyota_coaster
+2024-08-26 19:44:51.181 -07:00 [DBG] Added checksum for hk51_traffic_toyota_crown_comfort
+2024-08-26 19:44:51.185 -07:00 [DBG] Added checksum for hk51_traffic_toyota_hiace
+2024-08-26 19:44:51.189 -07:00 [DBG] Added checksum for hk51_traffic_vw_golf_r
+2024-08-26 19:44:51.191 -07:00 [DBG] Added checksum for hk51_traffic_bus_volvo_super_olympian
+2024-08-26 19:44:51.198 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_nkr_flatbed_tow_truck_hyundai_i30n
+2024-08-26 19:44:51.202 -07:00 [DBG] Added checksum for hk51_traffic_porsche_macan
+2024-08-26 19:44:51.216 -07:00 [INF] Initialized 18 car checksums
+2024-08-26 19:44:51.225 -07:00 [INF] Next session: Practice
+2024-08-26 19:44:51.229 -07:00 [INF] Switching session to id 0
+2024-08-26 19:44:51.665 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 19:44:52.586 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 19:44:52.597 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 19:44:52.636 -07:00 [INF] Registering server to lobby...
+2024-08-26 19:44:52.655 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 19:44:52.986 -07:00 [INF] Lobby registration successful
+2024-08-26 19:45:50.334 -07:00 [INF] Majestic (76561198366405484 - 65.24.209.204:49925) is attempting to connect (majestic_subaru_wrx)
+2024-08-26 19:45:50.339 -07:00 [DBG] Majestic supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3044"]
+2024-08-26 19:45:50.356 -07:00 [INF] Majestic (76561198366405484, 0 (majestic_subaru_wrx-WR Blue)) has connected
+2024-08-26 19:46:50.062 -07:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 29 - Target AI count: 20 - Overbooking: 0 - Rest: 20
+2024-08-26 19:46:50.433 -07:00 [INF] CHAT: Majestic (0): 				$CSP0:YOqrL2En
+2024-08-26 19:47:07.592 -07:00 [DBG] Received clean exit from Majestic (0)
+2024-08-26 19:47:07.603 -07:00 [DBG] Disconnecting Majestic (65.24.209.204:49925)
+2024-08-26 19:47:07.618 -07:00 [INF] Majestic has disconnected
+2024-08-26 19:49:05.902 -07:00 [INF] AssettoServer 0.0.54+51737e2c2e
+2024-08-26 19:49:06.070 -07:00 [DBG] Loading server_cfg.ini from cfg\server_cfg.ini
+2024-08-26 19:49:06.200 -07:00 [DBG] Loading entry_list.ini from cfg\entry_list.ini
+2024-08-26 19:49:06.261 -07:00 [DBG] Loading extra_cfg.yml from cfg\extra_cfg.yml
+2024-08-26 19:49:08.318 -07:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-08-26 19:49:08.487 -07:00 [INF] Starting server
+2024-08-26 19:49:09.331 -07:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-08-26 19:49:09.354 -07:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-08-26 19:49:09.358 -07:00 [DBG] Loaded admins.txt with 0 entries
+2024-08-26 19:49:09.368 -07:00 [INF] Starting HTTP server on port 8081
+2024-08-26 19:49:09.373 -07:00 [INF] Loaded 30 cars
+2024-08-26 19:49:09.427 -07:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-08-26 19:49:09.428 -07:00 [DBG] Added checksum for content/tracks/csp/1932/../shuto_revival_project_beta/overload_layout/data/surfaces.ini
+2024-08-26 19:49:09.430 -07:00 [INF] Initialized 2 track checksums
+2024-08-26 19:49:09.437 -07:00 [DBG] Added checksum for majestic_subaru_wrx
+2024-08-26 19:49:09.441 -07:00 [DBG] Added checksum for hk51_traffic_honda_jazz
+2024-08-26 19:49:09.445 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_giga_long
+2024-08-26 19:49:09.449 -07:00 [DBG] Added checksum for hk51_traffic_mercedes_a45_amg
+2024-08-26 19:49:09.451 -07:00 [DBG] Added checksum for hk51_traffic_mitsubishi_89colt
+2024-08-26 19:49:09.454 -07:00 [DBG] Added checksum for hk51_traffic_mule_short_truck
+2024-08-26 19:49:09.458 -07:00 [DBG] Added checksum for hk51_traffic_suzuki_gsxr_1000
+2024-08-26 19:49:09.461 -07:00 [DBG] Added checksum for hk51_traffic_tesla_model3
+2024-08-26 19:49:09.463 -07:00 [DBG] Added checksum for hk51_traffic_toyota_alphard
+2024-08-26 19:49:09.466 -07:00 [DBG] Added checksum for hk51_traffic_toyota_camry
+2024-08-26 19:49:09.470 -07:00 [DBG] Added checksum for hk51_traffic_toyota_celica
+2024-08-26 19:49:09.473 -07:00 [DBG] Added checksum for hk51_traffic_toyota_coaster
+2024-08-26 19:49:09.476 -07:00 [DBG] Added checksum for hk51_traffic_toyota_crown_comfort
+2024-08-26 19:49:09.479 -07:00 [DBG] Added checksum for hk51_traffic_toyota_hiace
+2024-08-26 19:49:09.482 -07:00 [DBG] Added checksum for hk51_traffic_vw_golf_r
+2024-08-26 19:49:09.485 -07:00 [DBG] Added checksum for hk51_traffic_bus_volvo_super_olympian
+2024-08-26 19:49:09.493 -07:00 [DBG] Added checksum for hk51_traffic_isuzu_nkr_flatbed_tow_truck_hyundai_i30n
+2024-08-26 19:49:09.495 -07:00 [DBG] Added checksum for hk51_traffic_porsche_macan
+2024-08-26 19:49:09.510 -07:00 [INF] Initialized 18 car checksums
+2024-08-26 19:49:09.518 -07:00 [INF] Next session: Practice
+2024-08-26 19:49:09.521 -07:00 [INF] Switching session to id 0
+2024-08-26 19:49:09.872 -07:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=5.249.163.28&httpPort=8081
+2024-08-26 19:49:10.012 -07:00 [INF] Starting TCP server on port 9600
+2024-08-26 19:49:10.021 -07:00 [INF] Starting UDP server on port 9600
+2024-08-26 19:49:10.056 -07:00 [INF] Registering server to lobby...
+2024-08-26 19:49:10.072 -07:00 [INF] Starting update loop with an update rate of 18hz
+2024-08-26 19:49:10.417 -07:00 [INF] Lobby registration successful
+2024-08-26 19:49:19.149 -07:00 [INF] Majestic (76561198366405484 - 65.24.209.204:50283) is attempting to connect (majestic_subaru_wrx)
+2024-08-26 19:49:19.156 -07:00 [DBG] Majestic supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3044"]
+2024-08-26 19:49:19.186 -07:00 [INF] Majestic (76561198366405484, 0 (majestic_subaru_wrx-WR Blue)) has connected
+2024-08-26 19:50:06.005 -07:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 29 - Target AI count: 20 - Overbooking: 0 - Rest: 20
+2024-08-26 19:50:06.372 -07:00 [INF] CHAT: Majestic (0): 				$CSP0:YOqrL2En
+2024-08-26 19:50:25.654 -07:00 [DBG] Car 18 reached spline end, despawning
+2024-08-26 19:50:30.216 -07:00 [DBG] Car 13 reached spline end, despawning
+2024-08-26 19:50:31.701 -07:00 [DBG] Car 18 reached spline end, despawning
+2024-08-26 19:50:36.435 -07:00 [DBG] Car 20 reached spline end, despawning
+2024-08-26 19:51:52.389 -07:00 [DBG] Car 8 reached spline end, despawning
+2024-08-26 19:52:08.670 -07:00 [DBG] Car 8 reached spline end, despawning
+2024-08-26 19:52:10.857 -07:00 [DBG] Car 2 reached spline end, despawning
+2024-08-26 19:52:21.593 -07:00 [INF] Collision between Majestic (0) and Traffic 8 (8), rel. speed 36km/h
+2024-08-26 19:52:22.698 -07:00 [INF] Collision between Majestic (0) and environment, rel. speed 73km/h
+2024-08-26 19:52:23.981 -07:00 [INF] Collision between Majestic (0) and Traffic 1 (1), rel. speed 9km/h
+2024-08-26 19:52:26.266 -07:00 [INF] Collision between Majestic (0) and Traffic 8 (8), rel. speed 11km/h
+2024-08-26 19:54:28.448 -07:00 [INF] Collision between Majestic (0) and Traffic 9 (9), rel. speed 5km/h
+2024-08-26 19:55:03.120 -07:00 [INF] Collision between Majestic (0) and Traffic 1 (1), rel. speed 55km/h
+2024-08-26 19:55:36.284 -07:00 [DBG] Car 20 reached spline end, despawning
+2024-08-26 19:56:45.863 -07:00 [DBG] Car 17 reached spline end, despawning
+2024-08-26 19:56:47.081 -07:00 [DBG] Car 3 reached spline end, despawning
+2024-08-26 19:56:51.581 -07:00 [DBG] Car 7 reached spline end, despawning
+2024-08-26 19:56:53.613 -07:00 [DBG] Car 2 reached spline end, despawning
+2024-08-26 19:56:54.332 -07:00 [DBG] Car 8 reached spline end, despawning
+2024-08-26 19:56:54.613 -07:00 [DBG] Car 8 reached spline end, despawning
+2024-08-26 19:56:58.785 -07:00 [DBG] Car 18 reached spline end, despawning
+2024-08-26 19:59:27.555 -07:00 [DBG] Received clean exit from Majestic (0)
+2024-08-26 19:59:27.566 -07:00 [DBG] Disconnecting Majestic (65.24.209.204:50283)
+2024-08-26 19:59:27.575 -07:00 [INF] Majestic has disconnected
